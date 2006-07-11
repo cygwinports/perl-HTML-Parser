@@ -6,14 +6,14 @@ ent kinds of markup and text are recognized, the corresponding event
 handlers are invoked.
 
 Runtime requirements:
-  cygwin-1.5.19-4
+  cygwin-1.5.20-1
   perl-5.8.7-5
   perl-HTML-Tagset-3.03-2
 
 Build requirements:
-  cygwin-1.5.19-4
+  cygwin-1.5.20-1
   binutils-20050610-1
-  cygport-0.1.92-1
+  cygport-0.2.2-1
   gcc-core-3.4.4-1
   make-3.80-1
   perl-5.8.7-5
@@ -27,15 +27,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-HTML-Parser-3.54-X-src.tar.bz2
+  unpack perl-HTML-Parser-3.55-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-HTML-Parser-3.54-X.cygport all
+  cygport ./perl-HTML-Parser-3.55-X.cygport all
 
 This will create:
-  /usr/src/perl-HTML-Parser-3.54-X-src.tar.bz2
-  /usr/src/perl-HTML-Parser-3.54-X.tar.bz2
+  /usr/src/perl-HTML-Parser-3.55-X-src.tar.bz2
+  /usr/src/perl-HTML-Parser-3.55-X.tar.bz2
 
 -------------------------------------------
 
@@ -53,10 +53,10 @@ Files included in the binary package:
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/HTML/Parser/Parser.bs
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/HTML/Parser/Parser.dll
   /usr/lib/perl5/vendor_perl/5.8/cygwin/auto/HTML/Parser/libParser.dll.a
-  /usr/share/doc/Cygwin/perl-HTML-Parser-3.54.README
-  /usr/share/doc/perl-HTML-Parser-3.54/Changes
-  /usr/share/doc/perl-HTML-Parser-3.54/README
-  /usr/share/doc/perl-HTML-Parser-3.54/TODO
+  /usr/share/doc/Cygwin/perl-HTML-Parser-3.55.README
+  /usr/share/doc/perl-HTML-Parser-3.55/Changes
+  /usr/share/doc/perl-HTML-Parser-3.55/README
+  /usr/share/doc/perl-HTML-Parser-3.55/TODO
   /usr/share/man/man3/HTML.Entities.3pm.gz
   /usr/share/man/man3/HTML.Filter.3pm.gz
   /usr/share/man/man3/HTML.HeadParser.3pm.gz
@@ -69,6 +69,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 3.55-1 -----
+Version bump.
 
 ----- version 3.54-1 -----
 Long overdue version bump.
