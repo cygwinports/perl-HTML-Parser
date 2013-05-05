@@ -1,0 +1,10 @@
+CPAN_AUTHOR="gaas"
+inherit perl
+
+NAME="perl-HTML-Parser"
+VERSION=3.70
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl HTML parser modules"
+DESCRIPTION="The HTML-Parser distribution is is a collection of modules that
+parse and extract information from HTML documents."
